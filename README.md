@@ -88,6 +88,50 @@ the image shows the design and diagram of the star schema that follows the desig
 
 ---
 
+### How to Run the Contents of This Repository
+
+To use and explore the notebooks and scripts in this repository, follow these steps:
+
+1. **Clone or Download the Repository**
+   - Download the repository as a ZIP file and extract it, or clone it using:
+     ```
+     git clone <repository-url>
+     ```
+
+2. **Set Up Your Environment**
+   - Ensure you have Python 3.x installed.
+   - Install required packages using pip:
+     ```
+     pip install pandas numpy matplotlib seaborn scikit-learn mlxtend jupyter
+     ```
+   - For database operations, SQLite is included with Python, but you may need to install `sqlite3` if using a minimal environment.
+
+3. **Open Jupyter Notebook**
+   - Launch Jupyter Notebook in the repository folder:
+     ```
+     jupyter notebook
+     ```
+   - Open the desired notebook (e.g., `etl_retail.ipynb`, `preprocessing_iris.ipynb`, etc.).
+
+4. **Run Each Notebook**
+   - Step through each cell in order, reading the markdown explanations and executing the code cells.
+   - For ETL notebooks, ensure the required data files (e.g., `Online Retail.xlsx`) are present in the correct location.
+   - For association rule mining, synthetic data is generated automatically.
+   - Visualizations and outputs will be saved in the `images` folder as you run the notebooks.
+
+5. **Explore Outputs**
+   - Review saved images and results in the `images` folder.
+   - Check the SQLite database file (`retail_dw.db`) for loaded tables.
+   - Use the markdown summaries and analysis cells for interpretation and reporting.
+
+6. **Modify and Experiment**
+   - You can edit code cells to try different parameters, algorithms, or visualizations.
+   - Use the structure and explanations as a template for your own data science projects.
+
+
+---
+### **Below are the imports and function necessary to run the codes**
+---
 ### Imports and Functions Used in This Repository
 
 #### **Imports**
